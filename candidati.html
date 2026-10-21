@@ -1,0 +1,76 @@
+﻿<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E3B2C">
+<meta name="robots" content="noindex,nofollow">
+<title>All In Vian · I candidati</title>
+<meta name="description" content="I candidati della lista All In Vian, Liceo Scientifico Statale Ignazio Vian di Bracciano.">
+<script>try{if(!/^file:/.test(location.protocol))document.write('<base href="/tavolo-vian-modifica/">')}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" href="./img/seme-picche.svg" type="image/svg+xml">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./img/icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="All In Vian">
+<meta property="og:title" content="All In Vian — Il tavolo degli studenti del Vian">
+<meta property="og:description" content="Candidati, proposte e tanto poker. La lista degli studenti del Liceo Scientifico Ignazio Vian, Bracciano.">
+<meta property="og:image" content="./img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script>try{var ft=JSON.parse(sessionStorage.getItem("aiv-t")||"null");sessionStorage.removeItem("aiv-t");if(ft&&ft.tipo==="strisce"){document.documentElement.className+=" arrivo-strisce"+(ft.specchio?" specchio-x":"");}}catch(e){}</script></head>
+<body class="home pagina-candidati arrivo">
+<noscript><style>.transizione{display:none!important}</style></noscript>
+<div class="transizione" aria-hidden="true"><div class="tenda"></div></div>
+<div class="sfondo" aria-hidden="true">
+  <div class="riflettore riflettore-oro"></div>
+  <img class="filigrana f1" src="./img/seme-picche.svg" alt="" loading="lazy" decoding="async" onerror="this.remove()">
+  <img class="filigrana f4" src="./img/seme-fiori.svg" alt="" loading="lazy" decoding="async" onerror="this.remove()">
+  <div class="vignettatura"></div>
+</div>
+
+<header class="site-header">
+  <a class="wordmark" href="./index.html">All In <em>Vian</em></a>
+  <div class="header-rule" aria-hidden="true"></div>
+  <p data-mod="testi.candidati.intestazione">I CANDIDATI · 2024/25</p>
+</header>
+<nav class="site-nav" aria-label="Sezioni del sito">
+  <a href="./home">Tavolo</a>
+  <a href="./candidati" aria-current="page">Candidati</a><a class="chip-gioco" href="./ventuno" aria-label="Sala privata: 21 con le picche"><span aria-hidden="true">&#9830;</span></a>
+</nav>
+
+<main class="table-main">
+  <div class="intro rivelato">
+    <p class="kicker"><img src="./img/asso.svg" alt="" width="16" height="16" loading="eager" decoding="async" onerror="this.remove()"><span data-mod="testi.candidati.kicker">Il mazzo al completo</span> <span aria-hidden="true">✦</span></p>
+    <h1>Le <em>facce</em> della lista</h1>
+    <p>Chi ci mette la faccia: conosci i candidati, tocca una carta per leggere la storia di ognuno.</p>
+  </div>
+  <section class="griglia-candidati" id="griglia-candidati" aria-label="Candidati della lista"></section>
+</main>
+
+<footer class="site-footer">
+  <span class="semi-footer" aria-hidden="true">
+    <img src="./img/seme-picche.svg" alt="" width="14" height="14" loading="lazy" decoding="async" onerror="this.remove()">
+    <img src="./img/seme-cuori.svg" alt="" width="14" height="14" loading="lazy" decoding="async" onerror="this.remove()">
+    <img src="./img/seme-quadri.svg" alt="" width="14" height="14" loading="lazy" decoding="async" onerror="this.remove()">
+    <img src="./img/seme-fiori.svg" alt="" width="14" height="14" loading="lazy" decoding="async" onerror="this.remove()">
+  </span>
+  <span>BRACCIANO · ROMA</span>
+  <span>ALL IN VIAN <i aria-hidden="true">↗</i></span>
+</footer>
+<p class="crediti">Icone: game-icons.net · CC BY 3.0</p>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="./supabase-config.js"></script>
+<script src="./data.js"></script>
+<script>window.__AIV_MODIFICA=1</script>
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+﻿<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<script>try{if(!/^file:/.test(location.protocol))document.write('<base href="/tavolo-vian-modifica/">')}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0E3B2C">
+<meta name="robots" content="noindex,nofollow">
+<title>All In Vian</title>
+<meta name="description" content="All In Vian — il tavolo degli studenti del Liceo Scientifico Statale Ignazio Vian di Bracciano.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" href="./img/seme-picche.svg" type="image/svg+xml">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./img/icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="All In Vian">
+<meta property="og:title" content="All In Vian — Il tavolo degli studenti del Vian">
+<meta property="og:description" content="Candidati, proposte e tanto poker. La lista degli studenti del Liceo Scientifico Ignazio Vian, Bracciano.">
+<meta property="og:image" content="./img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<script>try{var ft=JSON.parse(sessionStorage.getItem('aiv-t')||'null');sessionStorage.removeItem('aiv-t');if(ft&&ft.tipo==='strisce'){document.documentElement.className+=' arrivo-strisce'+(ft.specchio?' specchio-x':'');}if(sessionStorage.getItem('aiv-tenda')==='sx'){document.documentElement.className+=' ritorno';}sessionStorage.removeItem('aiv-tenda');}catch(e){}</script>
+<noscript><style>#avvio{display:none!important}.palco{opacity:1!important}*{animation:none!important}</style></noscript>
+</head>
+<body class="landing">
+<!-- Sfondo: feltro, luce, semi decorativi -->
+<div class="sfondo" aria-hidden="true">
+  <div class="riflettore"></div>
+  <img class="filigrana f1" src="./img/seme-picche.svg" alt="" loading="eager" decoding="async" onerror="this.remove()">
+  <img class="filigrana f2" src="./img/seme-cuori.svg" alt="" loading="eager" decoding="async" onerror="this.remove()">
+  <img class="filigrana f3" src="./img/seme-quadri.svg" alt="" loading="eager" decoding="async" onerror="this.remove()">
+  <img class="filigrana f4" src="./img/seme-fiori.svg" alt="" loading="eager" decoding="async" onerror="this.remove()">
+  <div class="vignettatura"></div>
+</div>
+
+<div id="avvio" role="status" aria-label="Caricamento di All In Vian" hidden>
+  <p class="avvio-scuola">Liceo Scientifico Statale Ignazio Vian</p>
+  <div class="avvio-chip" aria-hidden="true"></div>
+  <p class="avvio-nome">All In Vian</p>
+  <div class="avvio-barra" aria-hidden="true"><i></i></div>
+  <p class="avvio-testo">Mescolo le carte…</p>
+</div>
+
+<div class="transizione" aria-hidden="true">
+  <div class="tenda"></div>
+  
+  <div class="copertura"></div>
+</div>
+
+<main class="palco" id="palco">
+  <div class="fiches-angoli" aria-hidden="true">
+    <span class="fiche fa"></span>
+    <span class="fiche fb"></span>
+    <span class="fiche fd"></span>
+    <span class="fiche fe"></span>
+    <span class="dado" aria-hidden="true"></span>
+    <span class="fiche fg"></span>
+  </div>
+  <header class="blocco-titolo">
+    <p class="sopratitolo"><span aria-hidden="true"></span>Liceo Scientifico Statale Ignazio Vian<span aria-hidden="true"></span></p>
+    <h1 id="titolo-sito">All In<br>Vian</h1>
+    <p class="luogo">Bracciano · Italia</p>
+  </header>
+
+  <!-- Ventaglio di carte con facce + fiches -->
+  <section class="mazzo" id="mazzo" role="img" aria-label="Ventaglio di cinque carte da gioco e pila di fiches da poker">
+    <div class="mazzo-interno" id="mazzo-interno">
+      <div class="ventaglio" aria-hidden="true">
+        <img class="reale r1" src="./img/carte/ace_of_spades.png" alt="" width="222" height="323" fetchpriority="high" decoding="async" onerror="this.remove()">
+        <img class="reale r2" src="./img/carte/king_of_hearts.png" alt="" width="222" height="323" loading="eager" decoding="async" onerror="this.remove()">
+        <img class="reale r3" src="./img/carte/queen_of_diamonds.png" alt="" width="222" height="323" loading="eager" decoding="async" onerror="this.remove()">
+        <img class="reale r4" src="./img/carte/jack_of_clubs.png" alt="" width="222" height="323" loading="eager" decoding="async" onerror="this.remove()">
+        <img class="reale r5" src="./img/carte/10_of_spades.png" alt="" width="222" height="323" loading="eager" decoding="async" onerror="this.remove()">
+      </div>
+      <div class="ombra-terra" aria-hidden="true"></div>
+    </div>
+    <!-- Primo piano: illustrazioni scaricate -->
+    <div class="primo-piano" aria-hidden="true">
+      <img class="p p-sacco" src="./img/sacco-fiches.svg" alt="" width="120" height="120" loading="eager" decoding="async" data-profondita="16" onerror="this.remove()">
+      <img class="p p-jolly" src="./img/jolly.svg" alt="" width="110" height="110" loading="eager" decoding="async" data-profondita="-14" onerror="this.remove()">
+    </div>
+  </section>
+
+  <div class="banco-zona">
+    <div class="banco" aria-hidden="true"></div>
+    <button id="pulsante-entra" class="pulsante-entra" type="button" aria-label="Entra nel sito All In Vian" onclick="enterSite()">
+      <svg class="icona-fiche" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-dasharray="4 3"/><circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+      <span>Entra</span>
+    </button>
+    <p class="nota">Un posto per idee, storie e progetti condivisi.</p>
+  </div>
+</main>
+<script>window.__AIV_MODIFICA=1</script>
+<script src="./script.js"></script>
+</body>
+</html>
+
